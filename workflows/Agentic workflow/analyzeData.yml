@@ -1,0 +1,135 @@
+id: analyzeData
+type: datasource
+subtype: RetoolAIQuery
+resourceName: retool_ai
+resourceDisplayName: retool_ai
+template:
+  vectorNamespaceIds: []
+  vectorDynamicUrls: ''
+  queryRefreshTime: ''
+  allowedGroupIds: []
+  vectorActionNamespaceDynamicModeEnabled: false
+  vectorCreateAndFetchDynamicModeEnabled: false
+  streamResponse: true
+  imageClassifierDynamicLabels: ''
+  lastReceivedFromResourceAt: null
+  vectorSemanticSearchString: ''
+  isFunction: false
+  functionParameters: null
+  queryDisabledMessage: ''
+  customTemperature: '1'
+  servedFromCache: false
+  offlineUserQueryInputs: ''
+  functionDescription: null
+  successMessage: ''
+  queryDisabled: ''
+  playgroundQuerySaveId: latest
+  workflowParams: null
+  resourceNameOverride: ''
+  runWhenModelUpdates: false
+  workflowRunExecutionType: sync
+  showFailureToaster: true
+  vectorUrls: []
+  customSystemMessage: >-
+    You are a data analyst and you are choosing which strategy to take to reduce
+    risk and churn for the user. output "risky" if you think the user needs
+    intervention and output "healthy" if you think the user is an active and
+    healthy user
+  textExtractorDynamicLabels: ''
+  imageExtractorLabels: []
+  query: ''
+  playgroundQueryUuid: ''
+  imageExtractorDynamicModeEnabled: false
+  playgroundQueryId: null
+  error: null
+  workflowRunBodyType: raw
+  privateParams: []
+  model: gpt-4o-mini
+  queryRunOnSelectorUpdate: false
+  runWhenPageLoadsDelay: ''
+  data: null
+  defaultModelInitialized: true
+  providerId: retoolAIBuiltIn::openAI
+  textClassifierLabels: []
+  textClassifierDynamicModeEnabled: false
+  importedQueryInputs: {}
+  instruction: '{{ getData.data }}'
+  isImported: false
+  imageModel: dall-e-3
+  showSuccessToaster: true
+  fileUseDynamicSource: false
+  cacheKeyTtl: ''
+  requestSentTimestamp: null
+  metadata: {}
+  textClassifierDynamicLabels: ''
+  queryRunTime: null
+  changesetObject: ''
+  offlineOptimisticResponse: null
+  errorTransformer: return data.error
+  finished: null
+  embeddingModel: text-embedding-ada-002
+  confirmationMessage: null
+  isFetching: false
+  changeset: ''
+  chatInput: ''
+  rawData: null
+  vectorNamespaceId: ''
+  queryTriggerDelay: '0'
+  resourceTypeOverride: null
+  watchedParams: []
+  vectorDynamicNamespaces: ''
+  enableErrorTransformer: false
+  imageExtractorDynamicLabels: ''
+  multimodalModel: gpt-4o
+  showLatestVersionUpdatedWarning: false
+  vectorActionDynamicNamespace: ''
+  dynamicModelName: ''
+  timestamp: 0
+  evalType: script
+  textExtractorDynamicModeEnabled: false
+  action: textGeneration
+  textExtractorLabels: []
+  importedQueryDefaults: {}
+  enableTransformer: false
+  showUpdateSetValueDynamicallyToggle: true
+  fileSource: ''
+  filterLabels: []
+  dynamicModelEnabled: false
+  systemMessage: You are a helpful assistant
+  overrideOrgCacheForUserCache: false
+  runWhenPageLoads: false
+  content: ''
+  transformer: return data
+  events: []
+  vectorAction: upsertDocument
+  queryTimeout: '120000'
+  workflowId: null
+  vectorNamespacesDynamicModeEnabled: false
+  requireConfirmation: false
+  queryFailureConditions: ''
+  source: ''
+  imageClassifierLabels: []
+  imageClassifierDynamicModeEnabled: false
+  changesetIsObject: false
+  vectorModeEnabled: false
+  vectorNamespaceIdsFilters: []
+  providerName: openAI
+  enableCaching: false
+  allowedGroups: []
+  chatHistory: ''
+  imageContent: ''
+  offlineQueryType: None
+  queryThrottleTime: '750'
+  updateSetValueDynamically: false
+  notificationDuration: ''
+createdAt: 2025-06-10T13:54:11.974Z
+blockData:
+  top: -16
+  left: 912
+  uuid: 434d99aa-808d-4219-ac6c-61c822e3bf42
+  pluginId: analyzeData
+  blockType: default
+  editorType: RetoolAIQuery
+  resourceName: retool_ai
+  incomingOnSuccessEdges:
+    - 9cf16962-9ba7-4f75-bb3c-0b4c6729d439
