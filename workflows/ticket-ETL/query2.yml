@@ -118,11 +118,11 @@ template:
   queryThrottleTime: '750'
   updateSetValueDynamically: false
   notificationDuration: ''
-createdAt: 2025-06-18T01:31:28.397Z
+createdAt: 2025-06-18T13:19:59.480Z
 blockData:
   top: 48
   left: 2768
-  uuid: 98d76a6d-464b-49ca-a8b3-fa8622e9c190
+  uuid: 6bb49c97-c114-4b04-9c8f-2f303c6f8551
   pluginId: query2
   blockType: default
   editorType: RetoolAIQuery
