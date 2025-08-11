@@ -181,7 +181,11 @@
         </ToolbarButton>
       </Table>
       <Button id="button1" text="Testing Module" />
-      <Text id="text2" value="Testing module" verticalAlign="center" />
+      <Text
+        id="text2"
+        value="Testing module. adding a section"
+        verticalAlign="center"
+      />
       <Text
         id="text1"
         value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
