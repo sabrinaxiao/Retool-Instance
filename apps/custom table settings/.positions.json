@@ -19,5 +19,12 @@
     "row": 14,
     "height": 1,
     "width": 5
+  },
+  "text2": {
+    "container": "moduleContainer",
+    "row": 9.8,
+    "col": 3,
+    "height": 0.6,
+    "width": 5
   }
 }
