@@ -180,7 +180,7 @@
           />
         </ToolbarButton>
       </Table>
-      <Button id="button1" text="Testing Module" />
+      <Button id="button1" text="Testing" />
       <Text
         id="text1"
         value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
