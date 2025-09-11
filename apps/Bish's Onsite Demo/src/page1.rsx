@@ -22,6 +22,5 @@
       name="custom table settings"
       pageUuid="f0c8bd04-3bcf-11f0-b40a-fb6cb278d6fc"
     />
-    <Button id="button1" text="Button" />
   </Frame>
 </Screen>
