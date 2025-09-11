@@ -1,4 +1,10 @@
 {
+  "button1": {
+    "row": 13,
+    "col": 1,
+    "height": 1,
+    "width": 2
+  },
   "customTableSettings1": {
     "row": 1,
     "col": 1,
