@@ -4,5 +4,10 @@
     "col": 1,
     "height": 12,
     "width": 8
+  },
+  "textInput1": {
+    "row": 1,
+    "col": 9,
+    "height": 0.2
   }
 }
