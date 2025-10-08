@@ -10,6 +10,12 @@
     "height": 1,
     "width": 2
   },
+  "select1": {
+    "row": 0.2,
+    "col": 8,
+    "height": 0.2,
+    "width": 4
+  },
   "table1": {
     "row": 0.2,
     "height": 8,
