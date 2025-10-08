@@ -2,4 +2,4 @@ version: 1.0.0
 name: prod
 apps:
   - uuid: c0094bc4-a47b-11f0-8270-ab20c73baea0
-    release: 1.0.0
+    release: 1.1.0
