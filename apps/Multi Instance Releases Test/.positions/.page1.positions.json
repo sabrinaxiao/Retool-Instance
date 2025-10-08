@@ -4,6 +4,12 @@
     "height": 1,
     "width": 2
   },
+  "button2": {
+    "row": 8.4,
+    "col": 6,
+    "height": 1,
+    "width": 2
+  },
   "table1": {
     "row": 0.4,
     "height": 8,
