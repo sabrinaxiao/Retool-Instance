@@ -167,12 +167,7 @@
         />
       </ToolbarButton>
     </Table>
-    <Text
-      id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
-    />
-    <Button id="button1" text="Testing" />
-    <Button id="button2" text="Branch Merge" />
+    <Button id="button1" text="Button" />
+    <Button id="button2" text="Button" />
   </Frame>
 </Screen>
