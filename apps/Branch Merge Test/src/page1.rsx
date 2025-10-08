@@ -180,7 +180,7 @@
       <Option id="00031" value="Option 2" />
       <Option id="00032" value="Option 3" />
     </Select>
-    <Button id="button1" text="Button" />
-    <Button id="button2" text="Button" />
+    <Button id="button1" text="Testing " />
+    <Button id="button2" text="Branch Merge" />
   </Frame>
 </Screen>
