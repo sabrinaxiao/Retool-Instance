@@ -6,6 +6,6 @@ apps:
   - uuid: 5d27b2be-a487-11f0-9f52-bb17db4e5ac8
     release: 1.2.0
   - uuid: c0094bc4-a47b-11f0-8270-ab20c73baea0
-    release: 1.1.0
+    release: latest
   - uuid: d03bd10e-a482-11f0-927b-b37aaafa7e61
     release: latest
