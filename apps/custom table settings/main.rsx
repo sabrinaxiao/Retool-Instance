@@ -180,7 +180,11 @@
           />
         </ToolbarButton>
       </Table>
-      <Button id="button1" text="Testing" />
+      <Button
+        id="button1"
+        style={{ map: { background: "danger" } }}
+        text="Testing"
+      />
       <Text
         id="text1"
         value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
