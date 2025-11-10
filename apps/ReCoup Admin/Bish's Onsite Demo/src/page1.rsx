@@ -23,10 +23,6 @@
       pageUuid="f0c8bd04-3bcf-11f0-b40a-fb6cb278d6fc"
     />
     <Button id="button1" text="Button" />
-    <Text
-      id="text1"
-      value="👋 **Hello {{ current_user.firstName || 'friend' }}!**"
-      verticalAlign="center"
-    />
+    <Text id="text1" value="👋 **Hello there**" verticalAlign="center" />
   </Frame>
 </Screen>
