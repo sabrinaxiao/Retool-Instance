@@ -1,0 +1,112 @@
+{
+  "cancelButton": {
+    "rowGroup": "footer",
+    "subcontainer": "modalUpdateOrder",
+    "height": 1,
+    "width": 4
+  },
+  "closeModalButton": {
+    "rowGroup": "header",
+    "subcontainer": "modalUpdateOrder",
+    "col": 11,
+    "height": 1,
+    "width": 1
+  },
+  "filterDeliveryStatus": {
+    "container": "filtersContainer",
+    "subcontainer": "00030",
+    "height": 0.2,
+    "width": 4,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "filtersContainer": {
+    "row": 2,
+    "height": 3.2,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "inputDeliveryStatus": {
+    "subcontainer": "modalUpdateOrder",
+    "row": 4.4,
+    "height": 0.2,
+    "width": 12
+  },
+  "inputEmail": {
+    "subcontainer": "modalUpdateOrder",
+    "row": 2.4,
+    "height": 0.2,
+    "width": 12
+  },
+  "inputName": {
+    "subcontainer": "modalUpdateOrder",
+    "row": 0.4,
+    "height": 0.2,
+    "width": 12
+  },
+  "modalTitle": {
+    "rowGroup": "header",
+    "subcontainer": "modalUpdateOrder",
+    "height": 1.2,
+    "width": 10
+  },
+  "ordersContainer": {
+    "row": 5.2,
+    "height": 42,
+    "width": 12
+  },
+  "ordersTable": {
+    "container": "ordersContainer",
+    "subcontainer": "00030",
+    "height": 40,
+    "width": 12,
+    "stackPosition": {
+      "object": {
+        "ordinal": 0,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  },
+  "pageTitle": {
+    "row": 0.4,
+    "height": 1.2,
+    "width": 12
+  },
+  "saveButton": {
+    "rowGroup": "footer",
+    "subcontainer": "modalUpdateOrder",
+    "col": 8,
+    "height": 1,
+    "width": 4
+  },
+  "searchInput": {
+    "container": "filtersContainer",
+    "subcontainer": "00030",
+    "col": 4,
+    "height": 0.2,
+    "width": 8,
+    "stackPosition": {
+      "object": {
+        "ordinal": 1,
+        "widthType": "fixed",
+        "width": 0,
+        "height": 0
+      }
+    }
+  }
+}
