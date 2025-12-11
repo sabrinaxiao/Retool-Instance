@@ -81,6 +81,7 @@
         />
       </ToolbarButton>
     </Table>
+    <Text id="text1" value="haha you can't see this" verticalAlign="center" />
     <Button id="button1" text="Button" />
   </Frame>
 </Screen>
