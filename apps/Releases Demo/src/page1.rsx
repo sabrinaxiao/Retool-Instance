@@ -28,6 +28,11 @@
       clearChangesetOnSave={true}
       data="{{ query1.data }}"
       defaultSelectedRow={{ mode: "index", indexType: "display", index: 0 }}
+      dynamicColumnProperties={{
+        formatByIndex: "auto",
+        labelByIndex: "{{ item }}",
+      }}
+      dynamicColumnsEnabled={true}
       emptyMessage="No rows found"
       enableSaveActions={true}
       primaryKeyColumnId="19ea2"
@@ -37,59 +42,6 @@
       showHeader={true}
       toolbarPosition="bottom"
     >
-      <Column
-        id="19ea2"
-        alignment="right"
-        editableOptions={{ showStepper: true }}
-        format="decimal"
-        formatOptions={{ showSeparators: true, notation: "standard" }}
-        groupAggregationMode="sum"
-        key="id"
-        label="ID"
-        placeholder="Enter value"
-        position="center"
-        size={100}
-        summaryAggregationMode="none"
-      />
-      <Column
-        id="bd97c"
-        alignment="left"
-        editableOptions={{ spellCheck: false }}
-        format="string"
-        groupAggregationMode="none"
-        key="PROD_name"
-        label="Prod name"
-        placeholder="Enter value"
-        position="center"
-        size={100}
-        summaryAggregationMode="none"
-      />
-      <Column
-        id="2b4c2"
-        alignment="left"
-        editableOptions={{ spellCheck: false }}
-        format="string"
-        groupAggregationMode="none"
-        key="PROD_contact"
-        label="Prod contact"
-        placeholder="Enter value"
-        position="center"
-        size={100}
-        summaryAggregationMode="none"
-      />
-      <Column
-        id="8196d"
-        alignment="left"
-        editableOptions={{ spellCheck: false }}
-        format="string"
-        groupAggregationMode="none"
-        key="PROD_location"
-        label="Prod location"
-        placeholder="Enter value"
-        position="center"
-        size={100}
-        summaryAggregationMode="none"
-      />
       <ToolbarButton
         id="1a"
         icon="bold/interface-text-formatting-filter-2"
