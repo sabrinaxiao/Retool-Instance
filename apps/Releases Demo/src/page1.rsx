@@ -11,8 +11,9 @@
 >
   <RESTQuery
     id="query1"
-    resourceDisplayName="Test Releases Data"
-    resourceName="489cc9c9-a049-44ba-8a5f-de8fc70795d3"
+    resourceDisplayName="Release Test"
+    resourceName="71fa107a-75eb-4069-9acf-24f208f6569b"
+    resourceTypeOverride=""
   />
   <Frame
     id="$main"
