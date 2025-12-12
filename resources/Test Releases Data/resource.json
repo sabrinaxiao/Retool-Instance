@@ -10,7 +10,7 @@
   "ssl": null,
   "editPrivilege": null,
   "options": {
-    "baseURL": "https://retoolapi.dev/i80COA/data",
+    "baseURL": "{{ environment.variables.releases_test }}",
     "headers": [["", ""]],
     "urlparams": [["", ""]],
     "auth0_domain": "",
