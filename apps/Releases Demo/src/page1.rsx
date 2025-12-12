@@ -82,5 +82,6 @@
       </ToolbarButton>
     </Table>
     <Button id="button1" text="Button" />
+    <Text id="text1" value="testing source control" verticalAlign="center" />
   </Frame>
 </Screen>
