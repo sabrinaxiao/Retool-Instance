@@ -9,11 +9,7 @@
   urlSlug=""
   uuid="f97f1a92-f235-4002-8f22-ce2c1e5751b2"
 >
-  <RESTQuery
-    id="query1"
-    resourceDisplayName="Test Releases Data"
-    resourceName="489cc9c9-a049-44ba-8a5f-de8fc70795d3"
-  />
+  <RESTQuery id="query1" resourceName="489cc9c9-a049-44ba-8a5f-de8fc70795d3" />
   <Frame
     id="$main"
     enableFullBleed={false}
