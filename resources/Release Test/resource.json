@@ -10,7 +10,7 @@
   "ssl": null,
   "editPrivilege": null,
   "options": {
-    "baseURL": "{{ environment.variables.retool_name_test_api }}",
+    "baseURL": "{{ environment.variables.test_rest_api}}",
     "headers": [["", ""]],
     "urlparams": [["", ""]],
     "auth0_domain": "",
